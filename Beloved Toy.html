@@ -28,6 +28,33 @@
             color: rgb(41, 125, 250);
         }
 
+        h5 {
+            text-align: center;
+            text-decoration: underline;
+            text-shadow: 3px 3px 0 #ffc0cb, 6px 6px 0 #ff99aa;
+            font-weight: bold;
+            font-size: 1.4em;
+            line-height: 1.6;
+            padding: 20px;
+            margin: 0;
+            color: light black;
+            background: linear-gradient(to bottom, #fff8f0, #ffe0e0);
+        }
+
+        h6 {
+            text-align: center;
+            text-decoration: underline;
+            text-shadow: 3px 3px 0 #ffc0cb, 6px 6px 0 #ff99aa;
+            font-weight: bold;
+            font-size: 1.4em;
+            line-height: 1.6;
+            padding: 20px;
+            margin: 0;
+            color: light black;
+            background: linear-gradient(to bottom, #fff8f0, #ffe0e0);
+        }
+
+
         .highlight {
             font-weight: bold;
             color: #a0522d;
@@ -241,11 +268,38 @@
                 4px 4px 0 #ff69b4;
             margin-bottom: 20px;
         }
+
+        .site-footer {
+            background-color: #ffe6f0;
+            text-align: center;
+            padding: 20px;
+            font-size: 0.9em;
+            color: #d63384;
+        }
     </style>
 </head>
 
 <body>
     <h1 class="title">🐻 Welcome to My Teddy Bear Page 🐾</h1>
+
+    <div>Meet the most popular teddy bear Jellycat of them all, Bartholomew Bear! Kind, gentle, brave and full of heart,
+        he’s
+        always 200% there for his friends – like Bashful Bunny and Ricky Rain Frog.</div>
+    <div>
+        <br>
+    </div>
+    <div>
+        As well as this classic look, Bartholomew Bear comes in various adorable outfits and costumes – including natty
+        jumpers
+        that can be personalised!</div>
+    <div>
+        <br>
+    </div>
+    <div> to share deliciously soft hugs till you drift off to sleep.</div>
+    <div>
+        <br>
+    </div>
+
     <a href="https://eu.jellycat.com/bartholomew-bear-strawberry/" target="_blank">
         <img src="" alt="jelly Bartholomew bear" class="" />
     </a>
@@ -283,6 +337,19 @@
         He was my best toy one i would always remember.
         No matter the time or place, the teddy bear remains a timeless companion.</p>
 
+    <h5>Meet My Friends</h5>
+    <div class="grid">
+        <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/167/417/original/STH4BAR_2__27622.jpg?1749128316"
+            alt="" />
+        <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/167/415/original/BAR4BP_1__66166.jpg?1749128246"
+            alt="" />
+        <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/167/414/original/BAR4BBR_1__42955.jpg?1749128226"
+            alt="" />
+        <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/167/416/original/download.jpg?1749128271"
+            alt="" />
+    </div>
+
+    <h6> WATCH A VIDEO OR SENT TEDDY A MESSAGE </h6>
     <div class="video-form-container">
         <video class="teddy-video" controls>
             <source
@@ -295,6 +362,10 @@
             <textarea placeholder="Your message" required></textarea>
             <button type="submit" class="submit-button">Send 🐻</button>
         </form>
+        <footer class="site-footer">
+            <p>💌 Email Teddy: <a href="mailto:teddy@teddylovesyou.com">teddy@teddylovesyou.com</a></p>
+            <p>© 2025 Teddy Loves You</p>
+        </footer>
     </div>
     <footer>
         <p>
@@ -302,9 +373,9 @@
             and is open sourced on
             <a href="https://github.com/Alberta-code/Beloved-toy-2" target="_blank">
                 GitHub</a>
-
         </p>
     </footer>
+
     <script>
         const bday = new Date("2025-10-15");
         const interval = setInterval(() => {
